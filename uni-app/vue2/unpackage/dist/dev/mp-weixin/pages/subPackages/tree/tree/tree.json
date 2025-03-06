@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "co-tree": "/uni_modules/config-ui/components/co-tree/co-tree"
+  }
+}

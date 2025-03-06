@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "co-picker-header": "/uni_modules/config-ui/components/co-picker-header/co-picker-header",
+    "co-calendar-item": "/uni_modules/config-ui/components/co-datetime-picker/calendar-item",
+    "co-calendar-time": "/uni_modules/config-ui/components/co-datetime-picker/calendar-time"
+  }
+}

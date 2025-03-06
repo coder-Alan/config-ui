@@ -1,0 +1,1 @@
+<view class="co-load data-v-3b0ffe4a"><view hidden="{{!($root.g0)}}" class="data-v-3b0ffe4a"><slot></slot></view><view hidden="{{!($root.g1)}}" class="data-v-3b0ffe4a"><view class="co-load__tip-null data-v-3b0ffe4a">{{''+placeholder+''}}</view></view></view>

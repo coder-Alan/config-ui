@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "co-time-picker": "/uni_modules/config-ui/components/co-time-picker/co-time-picker"
+  }
+}

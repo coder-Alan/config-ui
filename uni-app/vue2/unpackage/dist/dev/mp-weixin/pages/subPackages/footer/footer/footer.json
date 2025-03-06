@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "co-footer": "/uni_modules/config-ui/components/co-footer/co-footer"
+  }
+}

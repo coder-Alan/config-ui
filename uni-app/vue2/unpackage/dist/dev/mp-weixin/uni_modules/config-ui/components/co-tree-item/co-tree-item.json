@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "co-tree-item": "/uni_modules/config-ui/components/co-tree-item/co-tree-item",
+    "co-svg-icon": "/uni_modules/config-ui/components/co-svg-icon/co-svg-icon",
+    "co-checkbox": "/uni_modules/config-ui/components/co-checkbox/co-checkbox"
+  }
+}

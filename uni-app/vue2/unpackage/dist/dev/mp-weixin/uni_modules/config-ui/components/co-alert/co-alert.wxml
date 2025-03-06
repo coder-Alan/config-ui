@@ -1,0 +1,1 @@
+<view class="co-alert data-v-ea47abaa" style="{{(alertStyle)}}"><block wx:if="{{showIcon}}"><co-svg-icon vue-id="5eacc78a-1" icon="{{newIcon}}" size="{{iconSize}}" color="{{newIconColor}}" class="data-v-ea47abaa" bind:__l="__l"></co-svg-icon></block><text class="{{['data-v-ea47abaa',showIcon?'co-alert__main':'']}}">{{title}}</text></view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "co-search": "/uni_modules/config-ui/components/co-search/co-search",
+    "co-load": "/uni_modules/config-ui/components/co-load/co-load"
+  }
+}

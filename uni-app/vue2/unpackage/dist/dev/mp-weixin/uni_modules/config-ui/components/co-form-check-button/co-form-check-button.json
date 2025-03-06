@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "co-form-label": "/uni_modules/config-ui/components/co-form-label/co-form-label"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "co-collapse": "/uni_modules/config-ui/components/co-collapse/co-collapse",
+    "co-svg-icon": "/uni_modules/config-ui/components/co-svg-icon/co-svg-icon"
+  }
+}

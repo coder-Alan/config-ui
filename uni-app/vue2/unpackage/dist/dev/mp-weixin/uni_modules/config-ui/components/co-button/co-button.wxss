@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.co-button.data-v-3068cc1a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  line-height: 1;
+  padding: 8px 15px;
+  font-size: 32rpx;
+  color: #606266;
+  background: #fff;
+  outline: none;
+  overflow: hidden;
+}
+.co-button.data-v-3068cc1a::after {
+  border: none;
+}
+.co-button .co-button-icon.data-v-3068cc1a {
+  margin-right: 8rpx;
+}
+.co-button[type=default].data-v-3068cc1a {
+  color: #606266;
+  background: #fff;
+  border: 1rpx solid #d4d7de;
+}
+.co-button[type=default][disabled].data-v-3068cc1a {
+  color: #a8abb2;
+  background-color: #fff;
+  border-color: #e4e7ed;
+}
+.co-button[type=primary].data-v-3068cc1a {
+  color: #fff;
+  background: #409EFF;
+}
+.co-button[type=primary][plain].data-v-3068cc1a {
+  color: #409EFF;
+  background: #ecf5ff;
+  border: 1rpx solid #a0cfff;
+}
+.co-button[type=primary][disabled].data-v-3068cc1a {
+  color: #fff;
+  background: #a0cfff;
+}
+.co-button[type=primary][plain][disabled].data-v-3068cc1a {
+  color: #a0cfff;
+  background: #ecf5ff;
+  border-color: #d9ecff;
+}
+.co-button[type=success].data-v-3068cc1a {
+  color: #fff;
+  background: #67C23A;
+}
+.co-button[type=success][plain].data-v-3068cc1a {
+  color: #67C23A;
+  background: #f0f9eb;
+  border: 1rpx solid #b3e19d;
+}
+.co-button[type=success][disabled].data-v-3068cc1a {
+  color: #fff;
+  background: #b3e19d;
+}
+.co-button[type=success][plain][disabled].data-v-3068cc1a {
+  color: #b3e19d;
+  background: #f0f9eb;
+  border-color: #e1f3d8;
+}
+.co-button[type=info].data-v-3068cc1a {
+  color: #fff;
+  background: #909399;
+}
+.co-button[type=info][plain].data-v-3068cc1a {
+  color: #909399;
+  background: #f4f4f5;
+  border: 1rpx solid #c8c9cc;
+}
+.co-button[type=info][disabled].data-v-3068cc1a {
+  color: #fff;
+  background: #c8c9cc;
+}
+.co-button[type=info][plain][disabled].data-v-3068cc1a {
+  color: #c8c9cc;
+  background: #f4f4f5;
+  border-color: #e9e9eb;
+}
+.co-button[type=warning].data-v-3068cc1a {
+  color: #fff;
+  background: #E6A23C;
+}
+.co-button[type=warning][plain].data-v-3068cc1a {
+  color: #E6A23C;
+  background: #fdf6ec;
+  border: 1rpx solid #f3d19e;
+}
+.co-button[type=warning][disabled].data-v-3068cc1a {
+  color: #fff;
+  background: #f3d19e;
+}
+.co-button[type=warning][plain][disabled].data-v-3068cc1a {
+  color: #f3d19e;
+  background: #fdf6ec;
+  border-color: #faecd8;
+}
+.co-button[type=danger].data-v-3068cc1a {
+  color: #fff;
+  background: #F56C6C;
+}
+.co-button[type=danger][plain].data-v-3068cc1a {
+  color: #F56C6C;
+  background: #fef0f0;
+  border: 1rpx solid #fab6b6;
+}
+.co-button[type=danger][disabled].data-v-3068cc1a {
+  color: #fff;
+  background: #fab6b6;
+}
+.co-button[type=danger][plain][disabled].data-v-3068cc1a {
+  color: #fab6b6;
+  background: #fef0f0;
+  border-color: #fde2e2;
+}
+

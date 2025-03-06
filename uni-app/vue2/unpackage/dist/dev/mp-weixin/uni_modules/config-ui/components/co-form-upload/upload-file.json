@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "status-box": "/uni_modules/config-ui/components/co-form-upload/status-box",
+    "co-svg-icon": "/uni_modules/config-ui/components/co-svg-icon/co-svg-icon"
+  }
+}

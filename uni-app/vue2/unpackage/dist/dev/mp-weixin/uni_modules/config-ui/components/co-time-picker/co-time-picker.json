@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "co-popup": "/uni_modules/config-ui/components/co-popup/co-popup",
+    "co-picker-header": "/uni_modules/config-ui/components/co-picker-header/co-picker-header"
+  }
+}

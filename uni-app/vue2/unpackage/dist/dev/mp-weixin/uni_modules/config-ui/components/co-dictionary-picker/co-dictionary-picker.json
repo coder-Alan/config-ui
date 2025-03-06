@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "co-picker": "/uni_modules/config-ui/components/co-picker/co-picker"
+  }
+}

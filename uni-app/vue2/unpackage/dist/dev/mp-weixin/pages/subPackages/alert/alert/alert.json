@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "co-alert": "/uni_modules/config-ui/components/co-alert/co-alert"
+  }
+}

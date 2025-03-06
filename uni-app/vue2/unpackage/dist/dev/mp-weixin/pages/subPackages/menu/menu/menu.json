@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "co-menu": "/uni_modules/config-ui/components/co-menu/co-menu",
+    "co-menu-item": "/uni_modules/config-ui/components/co-menu-item/co-menu-item",
+    "co-svg-icon": "/uni_modules/config-ui/components/co-svg-icon/co-svg-icon"
+  }
+}

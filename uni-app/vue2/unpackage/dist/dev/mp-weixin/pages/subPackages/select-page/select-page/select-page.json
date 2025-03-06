@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "co-select-page": "/uni_modules/config-ui/components/co-select-page/co-select-page"
+  }
+}

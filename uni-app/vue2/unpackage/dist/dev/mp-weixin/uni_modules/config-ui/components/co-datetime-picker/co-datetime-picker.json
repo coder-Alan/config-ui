@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "co-popup": "/uni_modules/config-ui/components/co-popup/co-popup",
+    "calendar": "/uni_modules/config-ui/components/co-datetime-picker/calendar"
+  }
+}

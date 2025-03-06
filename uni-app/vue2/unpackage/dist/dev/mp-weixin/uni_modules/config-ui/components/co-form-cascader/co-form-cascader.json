@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "co-form-normal": "/uni_modules/config-ui/components/co-form-normal/co-form-normal",
+    "co-cascader": "/uni_modules/config-ui/components/co-cascader/co-cascader"
+  }
+}

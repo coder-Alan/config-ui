@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "co-search": "/uni_modules/config-ui/components/co-search/co-search",
+    "co-load": "/uni_modules/config-ui/components/co-load/co-load",
+    "co-check-bar": "/uni_modules/config-ui/components/co-check-bar/co-check-bar",
+    "co-footer": "/uni_modules/config-ui/components/co-footer/co-footer"
+  }
+}

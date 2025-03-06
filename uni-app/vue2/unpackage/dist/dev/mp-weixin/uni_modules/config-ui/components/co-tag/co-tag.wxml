@@ -1,0 +1,1 @@
+<view class="{{['co-tag','data-v-410af76b',tagClass]}}" style="{{(style)}}"><slot></slot></view>

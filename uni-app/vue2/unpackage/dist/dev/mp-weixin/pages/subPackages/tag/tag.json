@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "co-tag": "/uni_modules/config-ui/components/co-tag/co-tag"
+  }
+}

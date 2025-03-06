@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "co-popup": "/uni_modules/config-ui/components/co-popup/co-popup"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "co-button": "/uni_modules/config-ui/components/co-button/co-button",
+    "co-form": "/uni_modules/config-ui/components/co-form/co-form"
+  }
+}

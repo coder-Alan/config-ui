@@ -1,0 +1,98 @@
+{
+  "pages": [
+    "pages/tabBar/index/index"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/subPackages/icon",
+      "pages": [
+        "icon/icon"
+      ]
+    },
+    {
+      "root": "pages/subPackages/button",
+      "pages": [
+        "button"
+      ]
+    },
+    {
+      "root": "pages/subPackages/tag",
+      "pages": [
+        "tag"
+      ]
+    },
+    {
+      "root": "pages/subPackages/form",
+      "pages": [
+        "form/form"
+      ]
+    },
+    {
+      "root": "pages/subPackages/tree",
+      "pages": [
+        "tree/tree"
+      ]
+    },
+    {
+      "root": "pages/subPackages/collapse",
+      "pages": [
+        "collapse/collapse"
+      ]
+    },
+    {
+      "root": "pages/subPackages/popup",
+      "pages": [
+        "popup/popup"
+      ]
+    },
+    {
+      "root": "pages/subPackages/search",
+      "pages": [
+        "search/search"
+      ]
+    },
+    {
+      "root": "pages/subPackages/load",
+      "pages": [
+        "load/load"
+      ]
+    },
+    {
+      "root": "pages/subPackages/footer",
+      "pages": [
+        "footer/footer"
+      ]
+    },
+    {
+      "root": "pages/subPackages/step",
+      "pages": [
+        "step/step"
+      ]
+    },
+    {
+      "root": "pages/subPackages/select-page",
+      "pages": [
+        "select-page/select-page"
+      ]
+    },
+    {
+      "root": "pages/subPackages/menu",
+      "pages": [
+        "menu/menu"
+      ]
+    },
+    {
+      "root": "pages/subPackages/alert",
+      "pages": [
+        "alert/alert"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

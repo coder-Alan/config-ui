@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['onClick',['$event']]]]]}}" class="{{['co-check-bar','co-check','data-v-1cf7d56b',(currChecked)?'checked':'',(disabled)?'disabled':'']}}" bindtap="__e"><slot></slot></view>

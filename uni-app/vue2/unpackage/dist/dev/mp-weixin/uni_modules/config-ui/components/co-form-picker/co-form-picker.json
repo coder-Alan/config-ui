@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "co-form-normal": "/uni_modules/config-ui/components/co-form-normal/co-form-normal",
+    "co-picker": "/uni_modules/config-ui/components/co-picker/co-picker",
+    "co-dictionary-picker": "/uni_modules/config-ui/components/co-dictionary-picker/co-dictionary-picker",
+    "co-time-picker": "/uni_modules/config-ui/components/co-time-picker/co-time-picker",
+    "co-area-picker": "/uni_modules/config-ui/components/co-area-picker/co-area-picker",
+    "co-datetime-picker": "/uni_modules/config-ui/components/co-datetime-picker/co-datetime-picker"
+  }
+}

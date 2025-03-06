@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['previewEvent',['$event']]]]]}}" class="co-upload-image-box data-v-1bc10fb2" bindtap="__e"><image class="image data-v-1bc10fb2" src="{{src}}" mode="scaleToFill"></image><block wx:if="{{loading}}"><view class="co-upload-image-box__loading data-v-1bc10fb2"><view class="co-loading-circle loading data-v-1bc10fb2"></view></view></block></view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "co-search": "/uni_modules/config-ui/components/co-search/co-search",
+    "co-svg-icon": "/uni_modules/config-ui/components/co-svg-icon/co-svg-icon"
+  }
+}

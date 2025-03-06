@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "co-form-normal": "/uni_modules/config-ui/components/co-form-normal/co-form-normal",
+    "co-form-picker": "/uni_modules/config-ui/components/co-form-picker/co-form-picker",
+    "co-form-cascader": "/uni_modules/config-ui/components/co-form-cascader/co-form-cascader",
+    "co-form-upload": "/uni_modules/config-ui/components/co-form-upload/co-form-upload",
+    "co-form-check-button": "/uni_modules/config-ui/components/co-form-check-button/co-form-check-button"
+  }
+}

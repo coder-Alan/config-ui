@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "co-popup": "/uni_modules/config-ui/components/co-popup/co-popup",
+    "co-form": "/uni_modules/config-ui/components/co-form/co-form",
+    "co-svg-icon": "/uni_modules/config-ui/components/co-svg-icon/co-svg-icon"
+  }
+}

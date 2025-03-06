@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "co-icon-bar": "/uni_modules/config-ui/components/co-icon-bar/co-icon-bar"
+  }
+}

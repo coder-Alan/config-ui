@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "co-steps": "/uni_modules/config-ui/components/co-steps/co-steps",
+    "co-step": "/uni_modules/config-ui/components/co-step/co-step"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "co-tree-item": "/uni_modules/config-ui/components/co-tree-item/co-tree-item"
+  }
+}
