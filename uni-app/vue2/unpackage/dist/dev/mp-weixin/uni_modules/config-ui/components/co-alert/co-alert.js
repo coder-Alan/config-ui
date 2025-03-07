@@ -127,8 +127,8 @@ var CoSvgIcon = function CoSvgIcon() {
 };
 /**
  * CoAlert 警告
- * @property {String} title 标题
- * @property {String} type = [success|info|warning|error] 类型
+ * @property {String} title Alert 标题
+ * @property {String} type = [success|info|warning|error] Alert 类型
  * 	@value success 成功
  * 	@value info 信息
  * 	@value warning 警告
@@ -145,7 +145,7 @@ var CoSvgIcon = function CoSvgIcon() {
  * @property {String} effect = [light|dark] 主题样式
  * 	@value light 浅色
  * 	@value dark 深色
- * 
+ * 	@default light
  */
 var _default = {
   name: 'CoAlert',

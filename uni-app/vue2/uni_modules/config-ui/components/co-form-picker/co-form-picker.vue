@@ -68,15 +68,15 @@ import CoDatetimePicker from '../co-datetime-picker/co-datetime-picker'
 import { getDicName } from '../../utils/index.js'
 
 /**
- * FormPicker 表单选择器
- * @description form组件的内置组件，合并了CoPicker、CoDictionaryPicker、CoTimePicker、CoDatetimePicker、CoAreaPicker组件
+ * FormPicker
+ * @description 表单选择器，form组件的内置组件，合并了CoPicker、CoDictionaryPicker、CoTimePicker、CoDatetimePicker、CoAreaPicker组件
  * @property {String|Number|Object|Array} v-model 绑定值
- * @property {Object} attrs 组件属性
+ * @property {Object} attrs 属性配置
  * 	@field pickerType = [default|dictionary|time|month|date|datetime|daterange|datetimerange|area] 选择器类型
  * 		@value default 默认选择器
  * 		@value dictionary 字典选择器
  * 		@value time 时间选择器
- * 		@value month 月选择器
+ * 		@value month 年月选择器
  * 		@value date 日期选择器
  * 		@value datetime 日期时间选择器
  * 		@value daterange 日期范围选择器
@@ -88,22 +88,21 @@ import { getDicName } from '../../utils/index.js'
  * 	 	@value label 返回标签
  * 	 	@value object 返回对象
  * 		@default value
- *  @field {String} labelType 标签类型 【CoFormNormal】
  *  @field {String} labelStyle 自定义标签的样式 【CoFormNormal】
- *  @field {String} placeholder 占位符 【CoFormNormal】
+ *  @field {String} placeholder 占位符内容 【CoFormNormal】
  *  @field {Boolean} disabled 是否禁用 【CoFormNormal】
- *  @field {String} borderAlign 标签对齐方式 【CoFormNormal】
+ *  @field {String} borderAlign 边框位置 【CoFormNormal】
  *  @field {String} label 标签内容 【CoFormNormal、CoDictionaryPicker、CoPicker】
- *  @field {Array<object>} list 选项列表 【CoPicker】
  *  @field {String} dictName 字典名称 【CoDictionaryPicker】
  *  @field {Boolean} multiple 是否多选 【CoDictionaryPicker、CoPicker】
  *  @field {Boolean} required 是否必填 【CoDictionaryPicker、CoPicker、CoDatetimePicker】
  *  @field {String|Number} startDate 开始日期 【CoDatetimePicker】
  *  @field {String|Number} endDate 结束日期 【CoDatetimePicker】
+ *  @field {Array<object>} list 选项列表 【CoPicker】
  *  @field {String} labelKey 标签字段名 【CoPicker】
  *  @field {String} valueKey 值字段名 【CoPicker】
- * @event {Function} clear 点击Picker组件的清除按钮触发 或者 点击CoFormNormal组件的Arrow组件的清除按钮触发
- * @event {Function} click 点击CoFormNormal组件的CoFormLabel组件的图标触发
+ * @event clear 当点击 CoPicker 组件的清除按钮触发或者点击 CoFormNormal 组件里面的 Arrow 组件的清除按钮触发
+ * @event click 当点击 CoFormNormal 组件里面的 CoFormLabel 组件的图标触发
  */
 
 export default {
@@ -148,7 +147,6 @@ export default {
 				pickerType: 'default',
 				labelKey: 'label',
 				valueKey: 'value',
-				labelType: 'arrow',
 				label: '',
 				labelStyle: '',
 				placeholder: '',
@@ -159,7 +157,11 @@ export default {
 				returnType: 'value',
 				multiple: false,
 			}
-			return Object.assign(defaultAttrs, this.attrs)
+			const newAttrs = Object.assign(defaultAttrs, this.attrs, {
+				labelType: 'arrow'
+			})
+
+			return newAttrs
 		}
 	},
 	watch: {

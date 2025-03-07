@@ -27,19 +27,20 @@
 import CoButton from '../co-button/co-button.vue';
 
 /**
- * Footer 底部按钮
- * @property {Array} options 按钮配置
- * 	@property {String} options.type = [primary|success|info|warning|danger] 按钮类型
+ * Footer
+ * @description 底部操作栏
+ * @property {Array} options 底部操作栏的按钮配置
+ * 	@field {String} options.type = [primary|success|info|warning|danger] 按钮类型
  * 		@value primary 主要按钮
  * 		@value success 成功按钮
  * 		@value info 信息按钮
  * 		@value warning 警告按钮
  * 		@value danger 危险按钮
- * @property {Boolean} fixed 是否固定定位
+ * @property {Boolean} fixed 是否固定在底部
  * 	@default true
  * @property {Boolean} shadow 是否显示阴影
  * 	@default true
- * @event {Function} * 自定义事件，点击按钮时触发
+ * @event * 自定义事件名 点击按钮时触发
  */
 
 export default {

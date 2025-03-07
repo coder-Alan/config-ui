@@ -28,21 +28,26 @@ import { getCssSize } from '../../utils/index'
  * @description 弹出层容器，用于展示弹窗、信息提示等内容
  * @property {Boolean} v-model 是否显示弹框
  * @property {String} placement = [top|bottom|center] 弹出位置
- *  @default bottom
  *  @value top 顶部
  *  @value bottom 底部
  *  @value center 居中
+ *  @default bottom
  * @property {String} position = [fixed|absolute] 定位方式
- *  @default fixed
  *  @value fixed 固定定位
  *  @value absolute 绝对定位
+ *  @default fixed
  * @property {String|Number} fixed 弹出距离
  * @property {String|Number} height 显示内容的高度
  * @property {String|Number} width 弹框的宽度，仅居中时有效
  * @property {Boolean} round 是否显示圆角
- * @property {Boolean} modal 是否需要遮罩层
+ * @property {Boolean} modal 是否显示遮罩
  *  @default true
  * @property {Boolean} close-on-click-modal 是否可以通过点击遮罩层关闭
+ *  @default true
+ * @event open 当弹框打开时触发
+ * @event close 当弹框关闭时触发
+ * @event opened 当弹框打开后触发
+ * @event closed 当弹框关闭后触发
  */
 
 export default {

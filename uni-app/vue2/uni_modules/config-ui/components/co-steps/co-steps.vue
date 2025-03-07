@@ -6,16 +6,16 @@
 
 <script>
 /**
- * Steps 步骤条
- * @description 用于展示一个流程的进度，可自定义样式
+ * Steps
+ * @description 步骤流程，用于展示一个流程的进度，可自定义样式
  * @property {Number} active 设置当前激活步骤
  * @property {String} process-status = [wait|process|warning|error|success] 设置当前步骤的状态
- *  @default wait
  *  @value wait 未完成
  *  @value process 进行中
  *  @value warning 警告
  *  @value error 错误
  *  @value success 成功
+ *  @default wait
  */
 
 export default {

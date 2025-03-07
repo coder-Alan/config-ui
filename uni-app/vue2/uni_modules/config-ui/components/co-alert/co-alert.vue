@@ -14,9 +14,10 @@
 import CoSvgIcon from '../co-svg-icon/co-svg-icon'
 
 /**
- * CoAlert 警告
- * @property {String} title 标题
- * @property {String} type = [success|info|warning|error] 类型
+ * Alert
+ * @description 警告
+ * @property {String} title Alert 标题
+ * @property {String} type = [success|info|warning|error] Alert 类型
  * 	@value success 成功
  * 	@value info 信息
  * 	@value warning 警告
@@ -33,7 +34,7 @@ import CoSvgIcon from '../co-svg-icon/co-svg-icon'
  * @property {String} effect = [light|dark] 主题样式
  * 	@value light 浅色
  * 	@value dark 深色
- * 
+ * 	@default light
  */
 
 export default {

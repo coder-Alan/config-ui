@@ -58,11 +58,11 @@ import CoSvgIcon from '../co-svg-icon/co-svg-icon'
 import CoCheckbox from '../co-checkbox/co-checkbox'
 
 /**
- * TreeItem 树形控件
- * @description 树形控件
+ * TreeItem
+ * @description 树形控件节点
  * @property {String} single-checked-id 单选时选中的id
  * @property {Array<string>} multiple-checked-id-list 多选时选中的id数组
- * @property {Array} data 树形控件的数据源
+ * @property {Object} data 数据源
  * @property {Object} props 配置选项，具体配置见下表
  * @property {String} props.id 指定节点id为节点对象的某个属性值
  * @property {String} props.label 指定节点标签为节点对象的某个属性值
@@ -79,9 +79,9 @@ import CoCheckbox from '../co-checkbox/co-checkbox'
  * @property {Number} level 节点的层级，用于计算缩进
  * @property {String} id-separator id分隔符，默认为 - ，如果设置了 defaultValue 默认值，务必设置 idSeparator
  * @property {Boolean} has-default-value 是否有默认值，用于判断是否需要设置默认选中状态
- * @event {Function} check 点击的节点选中状态发生变化时触发，回调参数为当前节点数据、当前节点是否被选中、当前所有已选中的节点数据
- * @event {Function} check-change 相关的节点选中状态发生变化时触发，回调参数为当前节点数据、当前节点是否被选中、当前所有已选中的节点数据
- * @event {Function} click 点击叶子节点时触发，回调参数为当前节点数据
+ * @event check 点击的节点选中状态发生变化时触发，回调参数为当前节点数据、当前节点是否被选中、当前所有已选中的节点数据
+ * @event check-change 相关的节点选中状态发生变化时触发，回调参数为当前节点数据、当前节点是否被选中、当前所有已选中的节点数据
+ * @event click 点击叶子节点时触发，回调参数为当前节点数据
  * @example <co-tree :data="data" :props="props" :show-checkbox="true" :multiple="true" @check="onCheck"></co-tree>
  */
 

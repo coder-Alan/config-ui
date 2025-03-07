@@ -53,8 +53,8 @@ import CoPickerHeader from '../co-picker-header/co-picker-header'
 import { years, months, hours, minutes, seconds } from '../../utils'
 
 /**
- * 时间选择器
- * @description form组件的内置组件，用于选择日期和时间
+ * TimePicker
+ * @description 时间选择器，form组件的内置组件，用于选择日期和时间
  * @property {Boolean} show 是否显示时间选择器
  * @property {String} type = [date|datetime|time|month] 选择器类型
  * 	@value date 日期选择器
@@ -65,10 +65,10 @@ import { years, months, hours, minutes, seconds } from '../../utils'
  * @property {Array<number>} disabled-hours 禁止选择的小时
  * @property {Array<number>} disabled-minutes 禁止选择的分钟
  * @property {Array<number>} disabled-seconds 禁止选择的秒
- * @event {Function} update:show 设置 showModelValue 的值时触发
- * @event {Function} confirm 点击确定按钮触发事件
- * @event {Function} clear 点击清除按钮触发事件
- * @event {Function} closed 弹窗关闭后触发
+ * @event update:show 设置 showModelValue 的值时触发
+ * @event confirm 点击确定按钮触发事件
+ * @event clear 点击清除按钮触发事件
+ * @event closed 弹窗关闭后触发
  * @example <co-time-picker :show.sync="show" type="date" @closed="onClose"></co-time-picker>
  */
 

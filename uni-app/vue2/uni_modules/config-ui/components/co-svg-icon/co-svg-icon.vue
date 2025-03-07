@@ -8,13 +8,14 @@ import { changeSvgColor } from './index.js'
 import { getCssSize } from '../../utils/index.js'
 
 /**
- * Svg图标
+ * SvgIcon
+ * @description Svg图标，支持自定义svg和内置svg
  * @property {String} icon 图标名称
  * @property {String|Number} size 图标大小
  * @property {String} color 图标颜色，16进制
  * @property {String} svg 自定义svg
  * @property {String|Array<string>} custom-class 自定义class
- * @event {Function} click 点击图标时触发
+ * @event click 点击图标时触发
  */
 
 export default {

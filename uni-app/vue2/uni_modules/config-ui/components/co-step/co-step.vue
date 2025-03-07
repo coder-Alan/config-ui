@@ -26,19 +26,19 @@
 import CoSvgIcon from '../co-svg-icon/co-svg-icon'
 
 /**
- * Step 步骤条子项
- * @description 与 Steps 组合使用，用于展示一个步骤
+ * Step
+ * @description 步骤条，与 Steps 组合使用，用于展示一个步骤
  * @property {String} icon 图标
  * @property {String} color 图标颜色
- * @property {String} top 图标距离顶部的距离
+ * @property {String} top 图标与步骤条顶部之间的距离
  * @property {String} status = [wait|process|warning|error|success] 状态
- * 	@default wait
  * 	@value wait 等待
  * 	@value process 进行中
  * 	@value warning 警告
  * 	@value error 错误
  * 	@value success 完成
- * @event {Function} click 点击事件
+ * 	@default wait
+ * @event click 当点击步骤条时触发
  */
 
 export default {

@@ -15,11 +15,12 @@
 import CoSvgIcon from '../co-svg-icon/co-svg-icon'
 
 /**
- * Button 按钮
- * @description 按钮组件
- * @property {String} type = [default|primary|info|warning|danger] 按钮类型
+ * Button
+ * @description 按钮
+ * @property {String} type = [default|primary|success|info|warning|danger] 按钮类型
  *  @value default 默认按钮
  *  @value primary 主要按钮
+ *  @value success 成功按钮
  *  @value info 信息按钮
  *  @value warning 警告按钮
  *  @value danger 危险按钮
@@ -28,7 +29,7 @@ import CoSvgIcon from '../co-svg-icon/co-svg-icon'
  * @property {Boolean} disabled 是否禁用按钮
  * @property {String} icon 图标名称
  * @property {String} style 自定义样式
- * @event {Function} click 点击事件
+ * @event click 点击事件
  */
 
 export default {

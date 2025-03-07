@@ -56,8 +56,9 @@ import CoFormCheckButton from '../co-form-check-button/co-form-check-button'
 import formValidate from './validate.js'
 
 /**
- * 表单组件
- * @property {Object} v-model 表单数据
+ * Form
+ * @description 表单组件
+ * @property {Object} v-model 表单数据对象
  * @property {Array<object>} options 表单项配置
  * 	@field {String} options.field 字段名
  * 	@field {String} options.component = [Normal|Picker|Cascader|Upload|CheckButton] 所需要用到的组件名
@@ -93,15 +94,15 @@ import formValidate from './validate.js'
  * 	@field {Object} options.rule 表单验证规则，具体配置可查看 validate.js
  * 		@field {RegExp} options.rule.reg 验证规则，正则表达式
  * 		@field {String} options.rule.message 验证失败提示信息
- * @property {Boolean} isFormat 是否需要格式化数据，只保留 options 里的字段
+ * @property {Boolean} is-format 是否需要格式化数据，只保留 options 里的字段
  * 	@default true
- * @property {Function} beforeUpload 上传前的回调函数
- * @property {Function} beforeRemove 删除前的回调函数
+ * @property {Function} before-upload 上传前的回调函数
+ * @property {Function} before-remove 删除前的回调函数
  * ...其余配置为对应组件的配置，可到对应组件查看
- * @event {Function} blur CoFormNormal组件里的textarea组件的失焦事件
- * @event {Function} change 字段值发生变化时触发
- * @event {Function} clear CoFormNormal组件 和 CoFormPicker组件 的清除按钮点击事件
- * @event {Function} * 自定义事件，对应组件的触发事件
+ * @event change 当某个字段的值发生变化时触发
+ * @event blur 当 CoFormNormal 组件里的 textarea 组件失去焦点时触发
+ * @event clear 当点击 CoFormNormal 组件和 CoFormPicker 组件的清除按钮时触发
+ * @event * 自定义事件名 对应组件的触发事件
  */
 
 export default {

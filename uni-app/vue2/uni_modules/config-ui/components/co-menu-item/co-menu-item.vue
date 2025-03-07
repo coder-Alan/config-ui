@@ -7,7 +7,7 @@
 <script>
 /**
  * MenuItem
- * @description 菜单子项
+ * @description 菜单项
  * @property {String|Number} index 唯一标志
  */
 

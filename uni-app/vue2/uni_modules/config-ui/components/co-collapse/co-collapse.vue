@@ -38,16 +38,17 @@
 import CoSvgIcon from '../co-svg-icon/co-svg-icon'
 
 /**
- * CoCollapse 折叠面板
+ * Collapse
+ * @description 折叠面板
  * @property {String} title 标题
- * @property {String} custom-class 自定义样式类名
- * @property {Boolean} open 默认是否是打开状态
+ * @property {String} custom-class 自定义class
+ * @property {Boolean} open 是否默认是打开状态
  * @property {String} icon-position = [left|right] 展开图标的位置
  * 	@value left 左侧
  * 	@value right 右侧
  * 	@default right
- * @event {Function} open 打开时触发
- * @event {Function} close 关闭时触发
+ * @event open 当折叠面板打开时触发
+ * @event close 当折叠面板关闭时触发
  */
 
 export default {

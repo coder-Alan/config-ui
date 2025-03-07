@@ -28,7 +28,7 @@
 import CoTreeItem from '../co-tree-item/co-tree-item'
 
 /**
- * Tree 树形控件
+ * Tree
  * @description 树形控件
  * @property {String|Array<string>} default-value 默认值，单选时为id，多选时为id数组
  * @property {Array} data 树形控件的数据源
@@ -41,12 +41,12 @@ import CoTreeItem from '../co-tree-item/co-tree-item'
  * @property {Boolean} only-leaf 是否仅在叶子节点才显示多选框，仅在 showCheckbox=true 时生效
  * @property {Boolean} multiple 是否多选
  * @property {Boolean} lazy 是否启用懒加载
- * @property {Function} load 懒加载的方法
+ * @property {Function} load 加载子树数据的方法，仅当 lazy 属性为true 时生效
  * @property {Array} disabled 复选框禁用数组，存储 id，仅 showCheckbox=true 时生效
  * @property {String} id-separator id分隔符，默认为 - ，如果设置了 defaultValue 默认值，务必设置 idSeparator
- * @event {Function} check 点击的节点选中状态发生变化时触发，回调参数为当前节点数据、当前节点是否被选中、当前所有已选中的节点数据
- * @event {Function} check-change 相关的节点选中状态发生变化时触发，回调参数为当前节点数据、当前节点是否被选中、当前所有已选中的节点数据
- * @event {Function} click 点击叶子节点时触发，回调参数为当前节点数据
+ * @event check 点击的节点选中状态发生变化时触发，回调参数为当前节点数据、当前节点是否被选中、当前所有已选中的节点数据
+ * @event check-change 相关的节点选中状态发生变化时触发，回调参数为当前节点数据、当前节点是否被选中、当前所有已选中的节点数据
+ * @event click 点击叶子节点时触发，回调参数为当前节点数据
  * @example <co-tree :data="data" :props="props" :show-checkbox="true" :multiple="true" @check="onCheck"></co-tree>
  */
 

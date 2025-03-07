@@ -17,15 +17,15 @@
  * @description 列表加载组件
  * @property {Array} v-model 列表数据
  * @property {Object} search-data 接口的查询参数，其他参数也可以通过该参数传递，必传
- * @property {Function} load 加载列表的函数
- * @property {Boolean} auto-search 是否需要自动初始化搜索
+ * @property {Function} load 加载列表数据的方法
+ * @property {Boolean} init-search 是否需要在组件初始化时搜索
  * 	@default true
  * @property {Number} page-size 每页条数
  * @property {String} placeholder 暂无数据时的提示语
  * @property {Boolean} loading 是否显示加载中的提示弹框
  * 	@default true
- * @event {Function} loadingChange 加载状态改变时触发
- * @event {Function} listChange 列表数据改变时触发
+ * @event loadingChange 加载状态改变时触发
+ * @event listChange 列表数据改变时触发
  */
 
 export default {
@@ -44,7 +44,7 @@ export default {
 			type: Function,
 			default: () => Promise.resolve({ list: [], totalPage: 0 }) // 返回的格式必须为 { list, totalPage }
 		},
-		autoSearch:{
+		initSearch:{
 			type: Boolean,
 			default: true
 		},
@@ -80,7 +80,7 @@ export default {
 		}
 	},
 	mounted() {
-		this.autoSearch && setTimeout(() => {
+		this.initSearch && setTimeout(() => {
 			this.search()
 		}, 500)
 	},

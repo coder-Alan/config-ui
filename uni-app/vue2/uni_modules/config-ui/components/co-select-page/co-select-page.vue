@@ -15,7 +15,7 @@
 			:search-data="newSearchData"
 			:load="load"
 			:placeholder="placeholder"
-			:auto-search="autoSearch"
+			:init-search="initSearch"
 			@listChange="onListChange"
 		>
 			<!-- multiple: false单/true多选 -->
@@ -47,31 +47,30 @@ import CoCheckBar from '../co-check-bar/co-check-bar'
 import CoFooter from '../co-footer/co-footer'
 
 /**
- * SelectPage 列表选择页面
- * @description 支持单选和多选，支持搜索和条件筛选
- * @property {Object} search-data 查询条件数据
- * @property {Boolean} filter 是否开启筛选
- * 	@default false
- * @property {Array<object>} filter-options 筛选条件，表单配置
- * @property {String} search-input-field 搜索框的输入字段，用于筛选数据
- * @property {String} label-key label字段，用于展示数据
- * @property {String} value-key value字段，用于选中状态
+ * SelectPage
+ * @description 列表选择页面，支持单选和多选，支持搜索和条件筛选
+ * @property {Object} search-data 接口的查询参数，其他参数也可以通过该字段传递，必传
+ * @property {Function} load 加载列表数据的方法
+ * @property {Boolean} init-search 是否需要在组件初始化时搜索
+ * 	@default true
+ * @property {String} placeholder 暂无数据时的提示语
+ * @property {Boolean} filter 是否开启搜索条件筛选
+ * @property {Array<object>} filter-options 搜索条件的表单配置
+ * @property {String} search-input-field 搜索框的输入字段，属于 search-data 属性里的一个字段
+ * @property {String} label-key 用于展示数据
+ * @property {String} value-key 用于选中状态
  * @property {Boolean} multiple 是否多选
- * 	@default false
- * @property {Function} load 加载函数，用于获取数据
  * @property {Boolean} back 点击确认后是否返回上一个页面
  * 	@default true
  * @property {String} slot-type 使用插槽组件的类型，组件需自行引入
  * @property {Boolean} has-search 是否需要搜索框
  * 	@default true
- * @property {String} placeholder 列表为空时的提示
- * @property {Boolean} auto-search 是否自动搜索
- * 	@default true
  * @property {Array} default-value 默认选中数据
- * @property {Boolean} required 是否必须选择数据才能确定
+ * @property {Boolean} required 是否必须选择数据后才能点击确定按钮
  * 	@default true
- * @event {Function} confirm 点击确认按钮时触发
- * @event {Function} listChange 列表刷新时触发，返回当前列表数据
+ * @event confirm 点击确认按钮时触发
+ * @event listChange 列表刷新时触发，返回当前列表数据
+ * @event update:searchData 当查询参数改变时触发
  * @example <co-select-page :search-data.sync="searchData" :filter="true" :filter-options="filterOptions" :load="load" :multiple="true" @confirm="onConfirm" @listChange="onListChange"></co-select-page>
  */
 
@@ -139,7 +138,7 @@ export default {
 			type: String,
 			default: '暂无数据'
 		},
-		autoSearch: {
+		initSearch: {
 			type: Boolean,
 			default: true
 		},

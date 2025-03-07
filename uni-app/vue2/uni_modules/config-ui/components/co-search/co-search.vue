@@ -84,6 +84,9 @@ import CoSvgIcon from '../co-svg-icon/co-svg-icon'
  * 	@default true
  * @property {Boolean} fixed 是否固定在顶部
  * 	@default true
+ * @event search 点击搜索按钮或者自动搜索时触发
+ * @event reset 点击重置按钮时触发
+ * @event * 自定义事件名 点击搜索条件表单的表单项 labelType = arrow 时触发
  */
 
 export default {

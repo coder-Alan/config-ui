@@ -62,10 +62,10 @@ import Radio from './radio'
 import Text from './text'
 
 /**
- * FormNormal 表单普通组件
- * @description form组件的内置组件，用于展示普通表单内容
+ * FormNormal
+ * @description 表单普通组件，form组件的内置组件，用于展示普通表单内容
  * @property {String|Number|Boolean} v-model 表单内容
- * @property {Object} attrs 组件属性配置
+ * @property {Object} attrs 属性配置
  * 	@field {String} labelType = [input|arrow|text|textarea|radio] 标签类型
  * 		@value input 输入框
  * 		@value arrow 选择箭头
@@ -80,7 +80,7 @@ import Text from './text'
  * 	@field {String} labelIconColor 标签尾部图标颜色
  * 	@field {Number} labelIconSize 标签尾部图标大小
  * 	@field {String} labelIconStyle 标签尾部图标样式
- * 	@field {String} iconMethod 点击尾部图标触发的事件
+ * 	@field {String} iconMethod 点击尾部图标触发的事件名称
  * 	@field {String} valueColor 值的颜色
  * 	@field {String} borderAlign = [top|bottom|vertical] 边框位置
  * 		@value top 上边框
@@ -97,8 +97,8 @@ import Text from './text'
  * 	@field {String} placeholderColor 占位符颜色
  * 	@field {Array} radioList 单项选择器的选择项列表
  * 	@field {String} customStyle 自定义样式
- * 	@field {String} unit 单位，仅 labelType = input/text 生效
- * 	@field {String} inputType = [text|number|digit|idcard|tel|safe-password|nickname] input框的类型，仅 labelType = input/text 生效
+ * 	@field {String} unit 单位，仅当 labelType 属性为 input/text 时生效
+ * 	@field {String} inputType = [text|number|digit|idcard|tel|safe-password|nickname] input框的类型，仅当 labelType 属性为 input/text 时生效
  * 		@value text 文本输入键盘
  * 		@value number 数字输入键盘
  * 		@value digit 带小数点的数字键盘
@@ -107,14 +107,14 @@ import Text from './text'
  * 		@value safe-password 密码安全输入键盘
  * 		@value nickname 昵称输入键盘
  * 		@default text
- * 	@field {Number} maxlength 最大输入长度，设置为 -1 时不限制最大长度，仅 labelType = textarea 生效
- * 	@field {Boolean} showTip 值为空时是否显示提示，仅 labelType = arrow 生效
- * 	@field {Boolean} clear 是否显示清除按钮，仅 labelType = arrow 生效
- * 	@field {String} methodName 点击事件的回调名称，仅 labelType = text/arrow 生效
- * 	@field {Boolean} ellipsis 是否需要单行省略，仅 labelType = text/arrow 生效
- * @event {Function} clear Input组件 和 Arrow组件 的清除按钮点击事件
- * @event {Function} blur textarea组件 的失去焦点事件
- * @event {Function} click CoFormLabel组件图标的点击事件 和 arrow、text类型的点击事件
+ * 	@field {Number} maxlength 最大输入长度，设置为 -1 时不限制最大长度，仅当 labelType 属性为 textarea 时生效
+ * 	@field {Boolean} showTip 值为空时是否显示提示，仅当 labelType 属性为 arrow 时生效
+ * 	@field {Boolean} clear 是否显示清除按钮，仅当 labelType 属性为 arrow 时生效
+ * 	@field {String} methodName 点击事件的回调名称，仅当 labelType 属性为 text/arrow 时生效
+ * 	@field {Boolean} ellipsis 是否需要单行省略，仅当 labelType 属性为 text/arrow 时生效
+ * @event blur 当 textarea 组件失去焦点时触发
+ * @event clear 当点击 Input 组件或者 Arrow 组件的清除按钮时触发
+ * @event click 当点击 CoFormLabel 组件图标或者点击 labelType 属性为 arrow/text 类型时触发
  */
 
 export default {

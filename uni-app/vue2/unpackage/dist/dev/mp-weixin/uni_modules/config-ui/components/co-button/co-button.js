@@ -128,9 +128,10 @@ var CoSvgIcon = function CoSvgIcon() {
 /**
  * Button 按钮
  * @description 按钮组件
- * @property {String} type = [default|primary|info|warning|danger] 按钮类型
+ * @property {String} type = [default|primary|success|info|warning|danger] 按钮类型
  *  @value default 默认按钮
  *  @value primary 主要按钮
+ *  @value success 成功按钮
  *  @value info 信息按钮
  *  @value warning 警告按钮
  *  @value danger 危险按钮

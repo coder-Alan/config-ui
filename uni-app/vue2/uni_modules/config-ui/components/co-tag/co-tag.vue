@@ -6,7 +6,8 @@
 
 <script>
 /**
- * Tag 标签
+ * Tag
+ * @description 标签，用于标记和选择
  * @property {String} type = [primary|success|info|warning|danger] 标签类型
  *  @value primary 主要
  *  @value success 成功
@@ -25,6 +26,7 @@
  */
 
 export default {
+  name: 'CoTag',
   props: {
     type: {
       type: String,
